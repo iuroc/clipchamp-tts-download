@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "target": "esnext",
+        "outDir": "dist",
+        "module": "esnext",
+        "moduleResolution": "bundler"
+    }
+}

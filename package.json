@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "dependencies": {
+    "esbuild": "^0.25.5",
+    "vanjs-core": "^1.5.5"
+  },
+  "scripts": {
+    "dev": "esbuild src/index.ts --bundle --outdir=dist --target=esnext --platform=neutral --format=iife --minify --watch"
+  }
+}
