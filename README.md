@@ -4,9 +4,9 @@
 
 ## 使用方法
 
-1. 本项目依赖油猴插件环境，请先安装油猴插件。
-2. 您可以从 Greakfork 安装本脚本，或者新建一个油猴脚本，复制本仓库的 `dist/index.js` 中的代码。
-3. 打开 Clipchamp 文本转语音面板即可使用下载按钮
+1. [安装油猴拓展](https://www.tampermonkey.net/)
+2. [进入脚本发布页面](https://www.tampermonkey.net/)
+3. 打开 Clipchamp 文本转语音面板，即可使用下载按钮。
 
 ## 实现原理
 
