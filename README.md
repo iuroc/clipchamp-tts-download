@@ -2,11 +2,15 @@
 
 > 为 Clipchamp 文本转语音面板增加音频下载按钮
 
+## 效果展示
+
+![](./image/2025-06-03_145031.jpg)
+
 ## 使用方法
 
 1. [安装油猴拓展](https://www.tampermonkey.net/)
-2. [进入脚本发布页面](https://www.tampermonkey.net/)
-3. 打开 Clipchamp 文本转语音面板，即可使用下载按钮。
+2. [安装脚本](https://greasyfork.org/zh-CN/scripts/538156-clipchamp-tts-download)
+3. 打开 Clipchamp 文本转语音面板，输入需要转换的文字，点击预览按钮，然后点击下载按钮即可下载音频文件。
 
 ## 实现原理
 

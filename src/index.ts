@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         为 Clipchamp 文本转语音面板增加音频下载按钮
+// @name         clipchamp-tts-download
 // @namespace    http://tampermonkey.net/
 // @version      v1.0.1
 // @description  为 Clipchamp 文本转语音面板增加音频下载按钮
@@ -7,6 +7,7 @@
 // @match        https://app.clipchamp.com/editor/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=clipchamp.com
 // @grant        none
+// @license      MIT
 // ==/UserScript==
 
 import van from 'vanjs-core'
