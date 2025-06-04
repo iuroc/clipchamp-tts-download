@@ -4,7 +4,7 @@
 // @version      v1.0.2
 // @description  为 Clipchamp 文本转语音面板增加音频下载按钮
 // @author       iuroc
-// @match        https://app.clipchamp.com
+// @match        https://app.clipchamp.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=clipchamp.com
 // @grant        none
 // @license      MIT
@@ -24,3 +24,4 @@
                         border-radius: var(--borderRadiusMedium);
                         font-family: var(--fontFamilyBase);
                         cursor: ${m.val.trim()&&g.val?"pointer":"no-drop"};`,onclick:()=>{if(m.val.trim()&&g.val){let o=prompt("\u8BF7\u8F93\u5165\u4FDD\u5B58\u7684\u6587\u4EF6\u540D",Date.now().toString());if(o==null)return;let n=document.createElement("a");n.href=g.val,n.download=o+".mp3",document.body.appendChild(n),n.click(),n.remove()}}},E({style:"font-weight: var(--fontWeightSemibold);"},"\u4E0B\u8F7D\u97F3\u9891"),E({style:"font-size: 12px; color: var(--colorNeutralForegroundDisabled);"},"\u8BF7\u5148\u9884\u89C8\u540E\u4E0B\u8F7D")))))});K.observe(document.body,{childList:!0,subtree:!0});var g=v.state(""),P=class extends Blob{constructor(r,l){super(r,l),g.val=URL.createObjectURL(this)}};window.Blob=P;})();
+// @license      MIT

@@ -4,7 +4,7 @@
 // @version      v1.0.2
 // @description  为 Clipchamp 文本转语音面板增加音频下载按钮
 // @author       iuroc
-// @match        https://app.clipchamp.com
+// @match        https://app.clipchamp.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=clipchamp.com
 // @grant        none
 // @license      MIT
